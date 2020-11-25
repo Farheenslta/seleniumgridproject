@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="Test1">
+  <parameter name="nodeurl" value="http://192.168.0.11:5555/wd/hub"></parameter>
+  <parameter name="siteurl" value="http://www.google.com"></parameter>
+  <classes>
+  	<class name="seleniumgrid.SeleniumGridParallelParameters"/>
+  </classes>
+  </test>
+  <test name="Test2">
+  <parameter name="nodeurl" value ="http://192.168.0.11:6666/wd/hub"></parameter>
+  <parameter name="siteurl" value="http://www.facebook.com"></parameter>
+  <classes>
+  	<class name="seleniumgrid.SeleniumGridParallelParameters"/>
+   </classes>
+  </test>
+  <test name="Test3">
+  <parameter name="nodeurl" value ="http://192.168.0.11:7777/wd/hub"></parameter>
+  <parameter name="siteurl" value="http://www.flipkart.com"></parameter>
+  <classes>
+  	<class name="seleniumgrid.SeleniumGridParallelParameters"/>
+   </classes>
+  </test>
+</suite>

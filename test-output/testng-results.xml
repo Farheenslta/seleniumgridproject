@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29128" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:51 IST">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="26393" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:49 IST">
+      <class name="seleniumgrid.Node2">
+        <test-method status="PASS" signature="method2()[pri:2, instance:seleniumgrid.Node2@704a52ec]" name="method2" duration-ms="26217" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- seleniumgrid.Node2 -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="27551" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:50 IST">
+      <class name="seleniumgrid.Node1">
+        <test-method status="PASS" signature="method1()[pri:1, instance:seleniumgrid.Node1@26aa12dd]" name="method1" duration-ms="27426" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- seleniumgrid.Node1 -->
+    </test> <!-- Test1 -->
+    <test name="Test3" duration-ms="29128" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:51 IST">
+      <class name="seleniumgrid.Node3">
+        <test-method status="PASS" signature="method3()[pri:3, instance:seleniumgrid.Node3@458c1321]" name="method3" duration-ms="29003" started-at="2020-11-25T17:08:22 IST" finished-at="2020-11-25T17:08:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- seleniumgrid.Node3 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
